@@ -28,3 +28,27 @@ body {
 .title {
     font-size: 50px;
 }
+
+.gallery {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.services {
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lashes {
+    max-width: 300px;
+}
