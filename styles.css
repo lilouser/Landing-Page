@@ -53,3 +53,8 @@ body {
 .lashes {
     max-width: 300px;
 }
+
+.lash-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
