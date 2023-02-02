@@ -75,6 +75,10 @@ body {
     padding-bottom: 10px;
 }
 
+.book-now {
+    margin: 50px;
+}
+
 .box {
     display: flex;
     border-radius: 100px;
