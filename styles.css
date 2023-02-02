@@ -12,6 +12,17 @@ body {
     padding-right: 100px;
 }
 
+img, a, .title, .about {
+    border-radius: 100px;
+    background-color: #ebd5c3;
+    padding: 10px;
+    color: #ae7d57;
+}
+
+.gallery .container img {
+    padding: 0;
+}
+
 .top {
     display: flex;
     align-items: center;
