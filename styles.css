@@ -1,13 +1,13 @@
 body {
     font-family: 'Yeseva One', cursive;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .links {
@@ -21,8 +21,9 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     text-align: left;
-    margin: 100px;
     gap: 15px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .title {
@@ -31,8 +32,6 @@ body {
 
 .gallery {
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 100px;
     flex-direction: column;
     text-align: center;
