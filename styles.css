@@ -7,6 +7,10 @@ body {
     font-family: 'Yeseva One', cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header, .gallery, .testimonial, .book-now, .footer {
     padding-left: 100px;
     padding-right: 100px;
