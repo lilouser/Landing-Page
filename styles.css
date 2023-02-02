@@ -129,4 +129,8 @@ button {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: #cfb398;
+    font-size: 15px;
+    color: white;
+    border-color: #b59277;
 }
