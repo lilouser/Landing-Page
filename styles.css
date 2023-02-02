@@ -77,6 +77,9 @@ body {
 
 .book-now {
     margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -85,5 +88,30 @@ body {
     background-color: #b97a64;
     padding: 30px;
     margin: 30px;
+    color: white;
+    min-width: 500px;
+}
+
+.left, button {
+    margin: 25px;
+}
+
+.left-title {
+    font-size: 25px;
+}
+
+.left-text, .left-title {
+    margin: 10px;
+}
+
+.left-text {
+    font-size: 12px;
+}
+
+button {
+    border-radius: 100px;
+    font-family: 'Shrikhand', cursive;
+    background-color: #b97a64;
+    border-color: white;
     color: white;
 }
