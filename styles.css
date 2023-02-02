@@ -14,9 +14,9 @@ body {
 
 img, a, .title, .about {
     border-radius: 100px;
-    background-color: #ebd5c3;
+    background-color: #e5dcd2;
     padding: 10px;
-    color: #ae7d57;
+    color: #515942;
 }
 
 .gallery .container img {
@@ -33,6 +33,8 @@ img, a, .title, .about {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
+    background-image: url(images/main-background.jpg);
+    background-position: center;
 }
 
 .links {
