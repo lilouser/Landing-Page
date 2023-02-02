@@ -2,6 +2,11 @@ body {
     font-family: 'Yeseva One', cursive;
 }
 
+.header, .main, .gallery, .testimonial, .book-now, .footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,8 +25,8 @@ body {
     justify-content: flex-start;
     text-align: left;
     gap: 15px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .title {
@@ -30,7 +35,7 @@ body {
 
 .gallery {
     display: flex;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     flex-direction: column;
     text-align: center;
 }
@@ -55,7 +60,7 @@ body {
 
 .lash-title {
     font-size: 20px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .lash-text {
@@ -64,7 +69,7 @@ body {
 
 .testimonial {
     padding-top: 25px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
@@ -74,7 +79,7 @@ body {
 }
 
 .book-now {
-    margin: 50px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +90,12 @@ body {
     border-radius: 100px;
     background-color: #b97a64;
     padding: 30px;
-    margin: 30px;
     color: white;
     min-width: 500px;
 }
 
 .left, button {
-    margin: 25px;
+    padding: 25px;
 }
 
 .left-title {
@@ -99,7 +103,7 @@ body {
 }
 
 .left-text, .left-title {
-    margin: 10px;
+    padding: 10px;
 }
 
 .left-text {
