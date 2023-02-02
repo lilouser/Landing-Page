@@ -74,3 +74,12 @@ body {
     font-size: 30px;
     padding-bottom: 10px;
 }
+
+.box {
+    display: flex;
+    border-radius: 100px;
+    background-color: #b97a64;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+}
