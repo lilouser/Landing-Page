@@ -10,6 +10,8 @@ body {
 .header, .main, .gallery, .testimonial, .book-now, .footer {
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -85,10 +87,10 @@ body {
 }
 
 .book-now {
-    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .box {
@@ -97,7 +99,7 @@ body {
     background-color: #b97a64;
     padding: 30px;
     color: white;
-    min-width: 500px;
+    width: 800px;
 }
 
 .left, button {
