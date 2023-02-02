@@ -68,3 +68,9 @@ body {
     padding-top: 25px;
     margin-bottom: 100px;
 }
+
+.quote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
