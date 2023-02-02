@@ -95,7 +95,7 @@ body {
 }
 
 .left, button {
-    padding: 25px;
+    padding: 15px;
 }
 
 .left-title {
@@ -109,6 +109,12 @@ body {
 .left-text {
     font-size: 12px;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 button {
     border-radius: 100px;
